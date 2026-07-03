@@ -27,6 +27,7 @@ public class Controlador {
 
     public void ejecutarRutina() throws LimiteReservaException {
         ejecutar(rutinaActual);
+        rutinaActual = new Rutina();
     }
 
     public void vaciarRutina() {

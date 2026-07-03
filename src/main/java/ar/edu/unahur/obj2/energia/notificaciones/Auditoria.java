@@ -11,7 +11,7 @@ public class Auditoria implements Notificable {
 
     @Override
     public void reaccionar(Bateria bateria, String tipoMovimiento, double kwh) {
-        String registro = "movimiento registrado: " + tipoMovimiento + "de " + kwh + " kWh en bateria " + bateria.getIdentificador();
+        String registro = "movimiento registrado: " + tipoMovimiento + " de " + kwh + " kWh en bateria " + bateria.getIdentificador();
             movimientos.add(registro);
         System.out.println(registro);
     }
